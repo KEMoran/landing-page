@@ -47,5 +47,115 @@ body {
 }
 
 .nav-links li:hover {
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(95, 95, 95);
 }
+
+
+/* Welcome section */
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.top-div {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    border: white solid 5px;
+    padding: 10px;
+    background-color: green;
+    min-width: 1000px;
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.top-text button {
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    background-color: burlywood;
+}
+
+.main-img {
+    max-width: 600px;
+    max-height: 100%;
+}
+
+
+/* Information section */
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: blue;
+}
+
+.info-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    border: white solid 5px;
+    padding: 10px;
+    background-color: green;
+    min-width: 1000px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-box img {
+    max-width: 30%;
+    border: white solid 2px;
+}
+
+
+
+/* Inspiring quote section */
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+/* Sign up section */
+
+
+
+
+
+
+
+
+/* Footer */

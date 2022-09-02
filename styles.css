@@ -39,11 +39,12 @@ button {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #6C584C;
     color: #F0EAD2;
 }
+
 
 span {
     color:#ADC178;
@@ -145,8 +146,9 @@ span {
 .info-boxes {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     flex-direction: row;
-    padding: 20px;
+    /*padding: 20px;*/
     width: 100%;
 }
 
@@ -156,10 +158,11 @@ span {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    max-width: 200px;
 }
 
 .info-box img {
-    border: 3px solid #A98467;
+    border: 5px solid #ADC178;
     border-radius: 3px;
     margin-bottom: 5px;
     width:  200px;
